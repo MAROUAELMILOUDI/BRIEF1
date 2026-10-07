@@ -545,4 +545,12 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
 
