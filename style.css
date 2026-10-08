@@ -331,7 +331,7 @@ button:focus-visible {
   margin-top: 32px;
 }
 
-.valeur {
+.valeur{
   flex: 1;
   display: flex;
   align-items: center;
@@ -344,6 +344,10 @@ button:focus-visible {
   font-size: 14px;
   font-weight: 600;
   color: #0F1B2D;
+  
+}
+.valeur:hover{
+  background-color: #E8ECD7;
 }
 
 .apropos-image {
@@ -353,6 +357,7 @@ button:focus-visible {
   object-fit: cover;
   border-radius: 16px;
   box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+  transition: 0.3s;
 }
 
 .carte-programme {
@@ -551,3 +556,40 @@ button:focus-visible {
    width: auto;
 
 }
+
+@media (max-width: 700px) {
+  .hero-contenu{
+    flex-direction: column;
+  }
+  .boutons{
+    flex-direction: column;
+  }
+  .hero-image{
+    width: 100%;
+  }
+  .chiffres{
+    flex-direction: column;
+  }
+  .cartes {
+    flex-direction: column;
+  }
+  .apropos-contenu{
+    flex-direction: column;
+  }
+  .apropos-image{
+    width: 100%;
+  }
+  .valeurs{
+    flex-direction: column;
+  }
+  .pied-haut{
+    flex-direction: column;
+  }
+  .menu-pied{
+    flex-direction: column;
+  }
+}
+
+
+
+
