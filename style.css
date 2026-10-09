@@ -122,6 +122,12 @@ button:focus-visible {
   gap: 24px;
 }
 
+.carte:hover{
+  scale: 1.02;
+  box-shadow: 0 0 20px rgba(247, 69, 5, 0.8);
+  transform: translateY(-2px);
+}
+
 .carte {
   flex: 1;
   background-color: #FFFFFF;
