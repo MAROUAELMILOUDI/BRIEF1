@@ -79,7 +79,7 @@ h2:after{
 	padding: 0.5rem 1rem;
 	font-size: 1.1rem;
 	margin-bottom: 22px;
-	transition: .3s;
+	transition: .3s;            
 }
 
 .field:hover{

@@ -239,6 +239,10 @@ button:focus-visible {
   margin-bottom: 32px;
 }
 
+.hero-image:hover{
+  transform: scale(1.1);
+} 
+
 .boutons {
   display: flex;
   flex-wrap: wrap;
@@ -524,6 +528,7 @@ button:focus-visible {
 
 .logo-clair {
   color: #FFFFFF;
+  transform: translateX(-10px);
 }
 
 .slogan {
@@ -557,6 +562,10 @@ button:focus-visible {
 
 }
 
+.apropos-image:hover{
+  transform: scale(1.1);
+}
+
 @media (max-width: 700px) {
   .hero-contenu{
     flex-direction: column;
@@ -568,6 +577,11 @@ button:focus-visible {
     width: 100%;
   }
   .chiffres{
+    flex-direction: column;
+  }
+  .chiffre + .chiffre {
+    border-top: 1px solid #E5E7EB;
+    border-left:0 ;
     flex-direction: column;
   }
   .cartes {
@@ -588,6 +602,7 @@ button:focus-visible {
   .menu-pied{
     flex-direction: column;
   }
+
 }
 
 
